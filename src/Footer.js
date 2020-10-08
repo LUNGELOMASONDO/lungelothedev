@@ -5,7 +5,7 @@ class Footer extends React.Component {
     render() {
         return (
             <footer id="footer">
-				<a href="tel:+27744928558" className="material-icons wa-icon">
+				<a href={"tel:" + this.props.cell} className="material-icons wa-icon">
 					local_phone
 				</a>
 				<hr />

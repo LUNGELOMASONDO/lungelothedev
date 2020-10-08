@@ -33,7 +33,7 @@ p {
   font-weight: bold;
   visibility: hidden;
   opacity: 0;
-  transform: translateY(10px);
+  transform: translateY(-10px);
   transition: opacity 0.3s, transform 0.2s;
 }
 
@@ -222,6 +222,16 @@ button:hover{
   width: 40%;
 }
 
+#resume-link {
+  font-size: 24px;
+  color: lightskyblue;
+}
+
+#resume-link:hover {
+  font-size: 24.3px;
+  color: #9a4ef1;
+}
+
 .wordchange:before {
   content: 'Full-Stack Web Development';
   font-family: 'Nunito', sans-serif;
@@ -234,9 +244,9 @@ button:hover{
   background-color: #D97179;
   border-radius: 20px;
   animation-name: mywordchange;
-  animation-duration: 35s;
+  animation-duration: 32s;
   animation-iteration-count: infinite;
-  animation-timing-function: ease;
+  animation-timing-function: ease-out;
 }
 
 @keyframes mywordchange {
@@ -252,9 +262,9 @@ button:hover{
   33% { content: 'Cloud Development'; opacity: 0;}
   37% { content: 'Cloud Development'; opacity: 1;}
   40% { content: 'Cloud Development'; opacity: 0;}
-  43% { content: 'Hybrid & Native Apps'; opacity: 0;}
-  47% { content: 'Hybrid & Native Apps'; opacity: 1;}
-  50% { content: 'Hybrid & Native Apps'; opacity: 0;}
+  43% { content: 'Hybrid & Native Mobile Apps'; opacity: 0;}
+  47% { content: 'Hybrid & Native Mobile Apps'; opacity: 1;}
+  50% { content: 'Hybrid & Native Mobile Apps'; opacity: 0;}
   53% { content: 'Database Administration'; opacity: 0;}
   57% { content: 'Database Administration'; opacity: 1;}
   60% { content: 'Database Administration'; opacity: 0;}
@@ -270,6 +280,46 @@ button:hover{
   93% { content: 'Python PyGame Dev'; opacity: 0;}
   97% { content: 'Python PyGame Dev'; opacity: 1;}
   100% { content: 'Python PyGame Dev'; opacity: 0;}
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+.card {
+  width: 80%;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
+  transition: 0.3s;
+}
+
+.card-header {
+  text-align: center;
+  padding: 50px 10px;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  color: #fff;
+}
+
+.card-body {
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.card-body .btn {
+  display: block;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  margin-top: 30px;
+  text-decoration: none;
+  padding: 10px 5px;
+
 }
 
 @media only screen and (min-width: 540px) {
@@ -326,6 +376,10 @@ button:hover{
   
   #skills-label > img {
     width: 30%;
+  }
+
+  .card {
+    width: 25%;
   }
 }
 
@@ -384,5 +438,9 @@ button:hover{
   
   #skills-label > img {
     width: 30%;
+  }
+
+  .card {
+    width: 20%;
   }
 }
