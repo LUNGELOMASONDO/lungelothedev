@@ -1,38 +1,388 @@
-.App {
+html, body{
+  background: #FAFAFF;
+  padding: 0px; 
+  color: #333333;/*#1a1a1a*/;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+}
+
+[data-tooltip] {
+  position: relative;
+  cursor: pointer;
+}
+
+[data-tooltip]::after {
+  position: absolute;
+  width: 160px;
+  right: calc(50% - 70%);
+  top: 125%;
   text-align: center;
+  box-sizing: border-box;
+  content: attr(data-tooltip);
+  color: #45B057;
+  background: white;
+  padding: 8px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #56C268;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.5em;
+  font-weight: bold;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s, transform 0.2s;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+[data-tooltip]:hover::after {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  z-index: 3;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+#page-container {
+  position: relative;
   min-height: 100vh;
+  padding-top: 10rem;
+}
+
+#content-wrap {
+  max-width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+  padding-bottom: 2rem;    /* Footer height */
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1rem;            /* Footer height */
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#my-name {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2rem;
+  padding-left: 0.5rem;
+}
+
+nav {
+  width:100%;
+  /*background:red !important;*/
+  white-space: nowrap;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  position: fixed;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  box-shadow: 0px 15px 10px -15px #EDEDF1; 
+  height: 9rem;
+  background: #FAFAFF;
+}
+
+#my-name + span{
+  display: none;
+}
+
+#profile-img{
+  vertical-align: middle;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+
+nav > * {
+  display: inline-block;
+}
+
+footer > hr {
+  visibility: hidden;
+}
+
+.wa-icon {
+  font-size: 30px;
+  border-radius: 50%;
   color: white;
+  border-color: #A0EDA0;
+  border-style: solid;
+  padding: 10px;
+  background-color: #3FBE3F;
+  cursor:pointer;
+  animation: pulse 2s infinite;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes pulse {
+  0% {
+    background-color: #116A11;
+  }	
+  25% {
+    background-color: #37AA37;
   }
-  to {
-    transform: rotate(360deg);
+  75% {
+    background-color: #71D971;
+  }
+  100% {
+    background-color: #3FBE3F;
+  }
+}
+
+nav > .wa-icon {
+  display: none;
+}
+
+#hello-world {
+  width: 100%;
+}
+
+#hello-world > img {
+  width: 100%;
+  animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;
+  animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to {opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+#intro-sect > p {
+  font-size: 1.5rem;
+}
+
+button{
+  display: inline-block;
+  padding:0.3em 1.2em;
+  margin:0 0.1em 0.1em 0;
+  border:0.16em solid rgba(255,255,255,0);
+  border-radius:2em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-weight:bold;
+  font-size: 1rem;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.2s;
+}
+
+button:hover{
+  border-color: #343449;
+}
+
+#my-buttons > #my-work-btn {
+  background-color: #9a4ef1;
+}
+
+#my-buttons > #get-in-touch-btn {
+  background-color: #363673;
+}
+
+.about-me {
+  display: flex;
+  box-sizing: border-box;
+  flex: 1 1 auto;
+  height: 60px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#skills-label {
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#skills-label > img {
+  width: 40%;
+}
+
+.wordchange:before {
+  content: 'Full-Stack Web Development';
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  border-style: none;
+  color: white;
+  background-color: #D97179;
+  border-radius: 20px;
+  animation-name: mywordchange;
+  animation-duration: 35s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+@keyframes mywordchange {
+  0% { content: 'Full-Stack Web Development'; opacity: 0;}
+  5% { content: 'Full-Stack Web Development'; opacity: 1;}
+  10% { content: 'Full-Stack Web Development'; opacity: 0;}
+  13% { content: 'Game Development'; opacity: 0;}
+  17% { content: 'Game Development'; opacity: 1;}
+  20% { content: 'Game Development'; opacity: 0;}
+  23% { content: 'Digital Marketing'; opacity: 0;}
+  27% { content: 'Digital Marketing'; opacity: 1;}
+  30% { content: 'Digital Marketing'; opacity: 0;}
+  33% { content: 'Cloud Development'; opacity: 0;}
+  37% { content: 'Cloud Development'; opacity: 1;}
+  40% { content: 'Cloud Development'; opacity: 0;}
+  43% { content: 'Hybrid & Native Apps'; opacity: 0;}
+  47% { content: 'Hybrid & Native Apps'; opacity: 1;}
+  50% { content: 'Hybrid & Native Apps'; opacity: 0;}
+  53% { content: 'Database Administration'; opacity: 0;}
+  57% { content: 'Database Administration'; opacity: 1;}
+  60% { content: 'Database Administration'; opacity: 0;}
+  63% { content: 'ASP.NET MVC'; opacity: 0;}
+  67% { content: 'ASP.NET MVC'; opacity: 1;}
+  70% { content: 'ASP.NET MVC'; opacity: 0;}
+  73% { content: 'Laravel'; opacity: 0;}
+  77% { content: 'Laravel'; opacity: 1;}
+  80% { content: 'Laravel'; opacity: 0;}
+  83% { content: 'Azure & AWS'; opacity: 0;}
+  87% { content: 'Azure & AWS'; opacity: 1;}
+  90% { content: 'Azure & AWS'; opacity: 0;}
+  93% { content: 'Python PyGame Dev'; opacity: 0;}
+  97% { content: 'Python PyGame Dev'; opacity: 1;}
+  100% { content: 'Python PyGame Dev'; opacity: 0;}
+}
+
+@media only screen and (min-width: 540px) {
+  /* For tablets: */
+  
+  #profile-img{
+    width: 9rem;
+    height: 9rem;
+  }
+  
+  #my-name + span{
+    display: none;
+  }
+  
+  #my-name {
+    padding-left: 2rem;
+  }
+  
+  footer {
+    font-size: 1.5rem;
+  }
+  
+  #hello-world {
+    padding: 20px;
+    display: flex;
+  }
+  
+  #hello-world > img{
+    width: 35%;
+  }
+  
+  #hello-world > #intro-sect {
+    padding: 10%;
+  }
+  
+  #intro-sect > p {
+    font-size: 1.7rem;
+  }
+  
+  nav > .wa-icon {
+    float: right;
+    margin-top: 6%;
+    margin-right: 5%;
+    display: block;
+  }
+  
+  footer > .wa-icon {
+    display: none;
+  }
+  
+  #skills-label {
+    padding-top: 15px;
+  }
+  
+  #skills-label > img {
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  /* For desktop: */
+  
+  #profile-img{
+    width: 7.9rem;
+    height: 7.9rem;
+  }
+  
+  #my-name + span{
+    display: inline-block;
+    font-size: 2rem;
+    font-family: 'Permanent Marker', cursive;
+  }
+  
+  #my-name {
+    padding-left: 2rem;
+  }
+  
+  #hello-world {
+    padding: 20px;
+    display: flex;
+  }
+  
+  #hello-world > img{
+    width: 35%;
+  }
+  
+  #hello-world > #intro-sect {
+    padding: 10%;
+  }
+  
+  #intro-sect > p {
+    font-size: 1.5rem;
+  }
+  
+  #intro-sect > p {
+    font-size: 1.8rem;
+  }
+  
+  nav > .wa-icon {
+    float: right;
+    margin-top: 2%;
+    margin-right: 5%;
+  }
+  
+  footer > .wa-icon {
+    display: none;
+  }
+  
+  #skills-label {
+    padding-top: 15px;
+  }
+  
+  #skills-label > img {
+    width: 30%;
   }
 }
