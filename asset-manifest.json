@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/lungelothedev/static/css/main.2c4a6615.chunk.css",
-    "main.js": "/lungelothedev/static/js/main.7743175b.chunk.js",
-    "main.js.map": "/lungelothedev/static/js/main.7743175b.chunk.js.map",
+    "main.css": "/lungelothedev/static/css/main.3e664916.chunk.css",
+    "main.js": "/lungelothedev/static/js/main.5761836b.chunk.js",
+    "main.js.map": "/lungelothedev/static/js/main.5761836b.chunk.js.map",
     "runtime-main.js": "/lungelothedev/static/js/runtime-main.3608501a.js",
     "runtime-main.js.map": "/lungelothedev/static/js/runtime-main.3608501a.js.map",
     "static/js/2.ad6c3b1a.chunk.js": "/lungelothedev/static/js/2.ad6c3b1a.chunk.js",
     "static/js/2.ad6c3b1a.chunk.js.map": "/lungelothedev/static/js/2.ad6c3b1a.chunk.js.map",
     "index.html": "/lungelothedev/index.html",
-    "precache-manifest.167b1c6773f72eebe7a9bdc5993b4a21.js": "/lungelothedev/precache-manifest.167b1c6773f72eebe7a9bdc5993b4a21.js",
+    "precache-manifest.41d869152f4f74f73d8c46f8ef2b4316.js": "/lungelothedev/precache-manifest.41d869152f4f74f73d8c46f8ef2b4316.js",
     "service-worker.js": "/lungelothedev/service-worker.js",
-    "static/css/main.2c4a6615.chunk.css.map": "/lungelothedev/static/css/main.2c4a6615.chunk.css.map",
+    "static/css/main.3e664916.chunk.css.map": "/lungelothedev/static/css/main.3e664916.chunk.css.map",
     "static/js/2.ad6c3b1a.chunk.js.LICENSE.txt": "/lungelothedev/static/js/2.ad6c3b1a.chunk.js.LICENSE.txt",
     "static/media/Profile.pdf": "/lungelothedev/static/media/Profile.7b4e9955.pdf",
     "static/media/profile2.jpg": "/lungelothedev/static/media/profile2.32cd677f.jpg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.3608501a.js",
     "static/js/2.ad6c3b1a.chunk.js",
-    "static/css/main.2c4a6615.chunk.css",
-    "static/js/main.7743175b.chunk.js"
+    "static/css/main.3e664916.chunk.css",
+    "static/js/main.5761836b.chunk.js"
   ]
 }
