@@ -12,6 +12,7 @@ class Content extends React.Component {
 			page: 0
 		};
 		this.contactme = this.contactme.bind(this);
+		this.handleHomePage = this.handleHomePage.bind(this);
 		this.handleWorkPage = this.handleWorkPage.bind(this);
 	}
 	contactme() {
@@ -37,10 +38,18 @@ class Content extends React.Component {
 			page: 1
 		});
 	}
+	handleHomePage() {
+		this.setState({
+			page: 0
+		});
+	}
     render() {
 		if(this.state.page === 1){
 			return (
-				<div id="content-wrap"> 
+				<div id="content-wrap" style={{paddingTop: "10px"}}> 
+					<button id="backhome-btn" onClick={this.handleHomePage}>
+						&#8592;
+					</button>
 					<div className="row">
 						<div className="card">
 							<div className="card-header">
