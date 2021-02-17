@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/lungelothedev/static/css/main.3e664916.chunk.css",
-    "main.js": "/lungelothedev/static/js/main.5761836b.chunk.js",
-    "main.js.map": "/lungelothedev/static/js/main.5761836b.chunk.js.map",
+    "main.css": "/lungelothedev/static/css/main.56556344.chunk.css",
+    "main.js": "/lungelothedev/static/js/main.cdb041c5.chunk.js",
+    "main.js.map": "/lungelothedev/static/js/main.cdb041c5.chunk.js.map",
     "runtime-main.js": "/lungelothedev/static/js/runtime-main.3608501a.js",
     "runtime-main.js.map": "/lungelothedev/static/js/runtime-main.3608501a.js.map",
-    "static/js/2.ad6c3b1a.chunk.js": "/lungelothedev/static/js/2.ad6c3b1a.chunk.js",
-    "static/js/2.ad6c3b1a.chunk.js.map": "/lungelothedev/static/js/2.ad6c3b1a.chunk.js.map",
+    "static/js/2.4ff7f554.chunk.js": "/lungelothedev/static/js/2.4ff7f554.chunk.js",
+    "static/js/2.4ff7f554.chunk.js.map": "/lungelothedev/static/js/2.4ff7f554.chunk.js.map",
     "index.html": "/lungelothedev/index.html",
-    "precache-manifest.41d869152f4f74f73d8c46f8ef2b4316.js": "/lungelothedev/precache-manifest.41d869152f4f74f73d8c46f8ef2b4316.js",
+    "precache-manifest.5dfec1a66de571ca795ae6e70d9cb2c6.js": "/lungelothedev/precache-manifest.5dfec1a66de571ca795ae6e70d9cb2c6.js",
     "service-worker.js": "/lungelothedev/service-worker.js",
-    "static/css/main.3e664916.chunk.css.map": "/lungelothedev/static/css/main.3e664916.chunk.css.map",
-    "static/js/2.ad6c3b1a.chunk.js.LICENSE.txt": "/lungelothedev/static/js/2.ad6c3b1a.chunk.js.LICENSE.txt",
-    "static/media/Profile.pdf": "/lungelothedev/static/media/Profile.7b4e9955.pdf",
+    "static/css/main.56556344.chunk.css.map": "/lungelothedev/static/css/main.56556344.chunk.css.map",
+    "static/js/2.4ff7f554.chunk.js.LICENSE.txt": "/lungelothedev/static/js/2.4ff7f554.chunk.js.LICENSE.txt",
     "static/media/profile2.jpg": "/lungelothedev/static/media/profile2.32cd677f.jpg",
     "static/media/toolbox.png": "/lungelothedev/static/media/toolbox.e5f2dcd9.png",
     "static/media/undraw_hello_aeia.svg": "/lungelothedev/static/media/undraw_hello_aeia.7f20e5ef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.3608501a.js",
-    "static/js/2.ad6c3b1a.chunk.js",
-    "static/css/main.3e664916.chunk.css",
-    "static/js/main.5761836b.chunk.js"
+    "static/js/2.4ff7f554.chunk.js",
+    "static/css/main.56556344.chunk.css",
+    "static/js/main.cdb041c5.chunk.js"
   ]
 }

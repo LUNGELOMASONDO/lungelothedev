@@ -1,31 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a9ab9e441ced6457e5e101e9e7663ca4",
+    "revision": "f3f8fb5559ef1b10d918f4891c54488a",
     "url": "/lungelothedev/index.html"
   },
   {
-    "revision": "7acdeba5bd4c33f5d3eb",
-    "url": "/lungelothedev/static/css/main.3e664916.chunk.css"
+    "revision": "cb4e12037f7f1736f449",
+    "url": "/lungelothedev/static/css/main.56556344.chunk.css"
   },
   {
-    "revision": "9c66f43784d678243e33",
-    "url": "/lungelothedev/static/js/2.ad6c3b1a.chunk.js"
+    "revision": "02e68a42768e9c9e0bcd",
+    "url": "/lungelothedev/static/js/2.4ff7f554.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/lungelothedev/static/js/2.ad6c3b1a.chunk.js.LICENSE.txt"
+    "url": "/lungelothedev/static/js/2.4ff7f554.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7acdeba5bd4c33f5d3eb",
-    "url": "/lungelothedev/static/js/main.5761836b.chunk.js"
+    "revision": "cb4e12037f7f1736f449",
+    "url": "/lungelothedev/static/js/main.cdb041c5.chunk.js"
   },
   {
     "revision": "a7d3cfb35e9c6c42d8e3",
     "url": "/lungelothedev/static/js/runtime-main.3608501a.js"
-  },
-  {
-    "revision": "7b4e9955f77bbcf576e8e4c8391be3ce",
-    "url": "/lungelothedev/static/media/Profile.7b4e9955.pdf"
   },
   {
     "revision": "32cd677fd32191fee2dad837e5725764",
