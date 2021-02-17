@@ -2,7 +2,6 @@ import React from 'react';
 import swal from 'sweetalert';
 import WorkerSVG from './undraw_hello_aeia.svg';
 import Toolbox from './toolbox.png';
-import Resume from './Profile.pdf';
 import './App.css';
 
 class Content extends React.Component {
@@ -47,21 +46,12 @@ class Content extends React.Component {
 		if(this.state.page === 1){
 			return (
 				<div id="content-wrap" style={{paddingTop: "10px"}}> 
-					<button id="backhome-btn" onClick={this.handleHomePage}>
+					<button id="backhome-btn" onClick={this.handleHomePage} style={{color: "grey"}}>
 						&#8592;
 					</button>
+					<br />
 					<div className="row">
-						<div className="card">
-							<div className="card-header">
-								<h1>{this.props.projects.title}</h1>
-							</div>
-							<div className="card-body">
-								<p>
-									{this.props.projects.description}
-								</p>
-								<a href={this.props.projects.url}>View</a>
-							</div>
-						</div>
+						<h2>Nothing to see currently. <br/> Stay tuned for cool upcoming projects</h2>
 					</div>
 				</div>
 			);
@@ -72,9 +62,9 @@ class Content extends React.Component {
 					<div id="hello-world">
 						<img src={WorkerSVG} alt="developer avi"/>
 						<div id="intro-sect">
-							<p> Hey, I'm Lungelo the developer your go to guy for most things software development related. <a id="resume-link" target="_blank" rel="noopener noreferrer" href={Resume}>Download my resumé here.</a> </p>
+							<p> Hey, I'm Lungelo the developer your go to guy for most things software development related. </p>
 							<div id="my-buttons">
-								<button id="my-work-btn" onClick={this.handleWorkPage}> View my work </button>
+								<button id="my-work-btn" onClick={this.handleWorkPage}> My portfolio </button>
 								<button id="get-in-touch-btn" onClick={this.contactme}> Get in touch </button>
 							</div>
 						</div>
