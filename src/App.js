@@ -42,10 +42,10 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Nav cell={this.state.cell} />
+        <Nav cell={"074 492 8558"} />
         <div id="page-container">		    
-            <Content cell={this.state.cell} projects={this.state.projects} />
-            <Footer cell={this.state.cell} />
+            <Content cell={"074 492 8558"} projects={this.state.projects} />
+            <Footer cell={"074 492 8558"} />
         </div>
       </div>
     );
