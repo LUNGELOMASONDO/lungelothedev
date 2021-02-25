@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1b3ccd153ecbfdf09224a69ae9a43420",
+    "revision": "cb1309e9592d283a14a291516c81fefc",
     "url": "/lungelothedev/index.html"
   },
   {
-    "revision": "10ed98465a5f0e6a5d26",
+    "revision": "33df860a093509c6282f",
     "url": "/lungelothedev/static/css/main.5276c0bd.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lungelothedev/static/js/2.4ff7f554.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "10ed98465a5f0e6a5d26",
-    "url": "/lungelothedev/static/js/main.123c5a95.chunk.js"
+    "revision": "33df860a093509c6282f",
+    "url": "/lungelothedev/static/js/main.3c34fa1f.chunk.js"
   },
   {
     "revision": "a7d3cfb35e9c6c42d8e3",
