@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/lungelothedev/static/css/main.5276c0bd.chunk.css",
-    "main.js": "/lungelothedev/static/js/main.3c34fa1f.chunk.js",
-    "main.js.map": "/lungelothedev/static/js/main.3c34fa1f.chunk.js.map",
+    "main.js": "/lungelothedev/static/js/main.938fb7dd.chunk.js",
+    "main.js.map": "/lungelothedev/static/js/main.938fb7dd.chunk.js.map",
     "runtime-main.js": "/lungelothedev/static/js/runtime-main.3608501a.js",
     "runtime-main.js.map": "/lungelothedev/static/js/runtime-main.3608501a.js.map",
     "static/js/2.4ff7f554.chunk.js": "/lungelothedev/static/js/2.4ff7f554.chunk.js",
     "static/js/2.4ff7f554.chunk.js.map": "/lungelothedev/static/js/2.4ff7f554.chunk.js.map",
     "index.html": "/lungelothedev/index.html",
-    "precache-manifest.a09181f638ed0a32c7a0c3372811630f.js": "/lungelothedev/precache-manifest.a09181f638ed0a32c7a0c3372811630f.js",
+    "precache-manifest.1bcb1b7c4953481bbf57da05f82cad15.js": "/lungelothedev/precache-manifest.1bcb1b7c4953481bbf57da05f82cad15.js",
     "service-worker.js": "/lungelothedev/service-worker.js",
     "static/css/main.5276c0bd.chunk.css.map": "/lungelothedev/static/css/main.5276c0bd.chunk.css.map",
     "static/js/2.4ff7f554.chunk.js.LICENSE.txt": "/lungelothedev/static/js/2.4ff7f554.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.3608501a.js",
     "static/js/2.4ff7f554.chunk.js",
     "static/css/main.5276c0bd.chunk.css",
-    "static/js/main.3c34fa1f.chunk.js"
+    "static/js/main.938fb7dd.chunk.js"
   ]
 }
